@@ -30,8 +30,6 @@
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-
-
 .form__box {
     margin: 0;
     padding: 0;
@@ -66,10 +64,6 @@
     background-size: cover;
 }
 
-
-
-
-
 .form__box__label {
     display: block;
     font-weight: 600;
@@ -97,7 +91,6 @@
     resize: none;
 }
 
-
 .form__label__discont {
 
     display: block;
@@ -108,7 +101,6 @@
     text-transform: uppercase;
     color: #6e6893;
 }
-
 
 .form__box__checkbox {
     position: relative;
@@ -153,32 +145,11 @@
     opacity: 1
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .text {
     display: inline-block;
     vertical-align: text-top;
 
 }
-
-
-
-
-
-
-
-
-
 
 .text {
 
