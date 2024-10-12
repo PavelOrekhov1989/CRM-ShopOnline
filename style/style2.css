@@ -1,0 +1,128 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+.product {
+    width: 792px;
+    height: 823px;
+    display: block;
+    padding: 32px 0;
+    margin: auto;
+}
+
+
+
+.container {
+
+    width: 792px;
+    height: 823px;
+    padding: 32px 106px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    background: #f2f0f9;
+}
+
+.title {
+    margin-bottom: 42px;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #6e6893;
+
+}
+
+.form__box {
+    display: block;
+    padding: 38px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    border-style: none;
+
+
+}
+
+.form__box__label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #6e6893;
+}
+
+.form__box__input {
+    display: block;
+    border-radius: 6px;
+    width: 524px;
+    height: 40px;
+    background: #f4f2ff;
+    margin-left: -10px;
+    border-style: none;
+}
+
+.label__discont {
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #6e6893;
+}
+
+.label__discont {
+
+    display: block;
+}
+
+.block {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.checkbox {
+
+    display: inline-block;
+    margin-left: -10px;
+    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    background: #f4f2ff;
+
+}
+
+.text {
+    float: right;
+    vertical-align: bottom;
+    display: inline-block;
+    border-radius: 6px;
+    width: 474px;
+    height: 40px;
+    background: #f4f2ff;
+    border-style: none;
+}
+
+.form__box_size-textarea {
+    min-width: 524px;
+    min-height: 112px;
+    resize: none;
+}
+
+.form__box__button {
+    border-radius: 6px;
+    width: 200px;
+    height: 39px;
+    margin-left: 352px;
+    background: #6d5bd0;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    border-style: none;
+}

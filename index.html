@@ -4,71 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/style/normalize.css">
+    <link rel="stylesheet" href="/style/style.css">
     <title>ShopOnline</title>
 </head>
 
 <body>
+    <section class="product">
 
-    <h1>Добавить товар</h1>
+        <div class="container">
 
-    <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+            <div class="container__title">
+                <h1 class="title">Добавить товар</h1>
+            </div>
 
-        <fieldset>
-
-            <label>
-                Наименование <br>
-                <input type="text" name="name">
-            </label>
-
-            <br>
-
-            <label>Категория <br>
-                <input type="text" name="category">
-            </label>
-
-            <br>
-
-            <label>Единицы измерения <br>
-                <input type="text" name="units">
-            </label>
-
-            <br>
-
-            <label>
-                Дисконт <br>
-                <input type="checkbox" name="discont">
-                <input type="text" disabled>
-            </label>
-
-            <br>
-
-            <label>Описание <br>
-                <textarea name="description"></textarea>
-            </label>
-
-            <br>
-
-            <label>Количество <br>
-                <input type="number" name="count">
-            </label>
-
-            <br>
-
-            <label>Цена <br>
-                <input type="number" name="price">
-            </label>
-
-            <br><br>
-
-            <input type="file" accept="image/jpeg">
-        </fieldset>
+            <div class="container__button">
+                <button class="button"></button>
+            </div>
 
 
-        <br>
 
-        <button type="submit">Добавить товар</button>
 
-    </form>
+
+            <form class="form" id="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+
+                <fieldset class="form__box">
+
+                    <label class="form__box__label form__box__label_PT ">Наименование
+                        <input class="form__box__input" type="text" name="name">
+                    </label>
+
+
+
+                    <label class="form__box__label">Категория
+                        <input class="form__box__input" type="text" name="category">
+                    </label>
+
+
+
+                    <label class="form__box__label">Единицы измерения
+                        <input class="form__box__input" type="text" name="units">
+                    </label>
+
+
+
+                    <label for="checkbox" class="form__label__discont form__label__checkbox">Дисконт</label>
+
+                    <div class="form__box__checkbox">
+                        <input class="form__box__label__inline checkbox checkbox_psevdo" id="checkbox" type="checkbox"
+                            name="discont">
+
+                        <input class="form__box__label__inline text" type="text">
+                    </div>
+
+
+
+                    <label class="form__box__label">Описание
+                        <textarea class="form__box__input form__box__size-textarea" name="description"></textarea>
+                    </label>
+
+
+
+                    <label class="form__box__label">Количество
+                        <input class="form__box__input" type="number" name="count">
+                    </label>
+
+
+
+                    <label class="form__box__label">Цена
+                        <input class="form__box__input" type="number" name="price">
+                    </label>
+                </fieldset>
+            </form>
+
+
+            <button form="form" class="container__box__button container__position__button" type="submit">Добавить
+                товар</button>
+
+        </div>
+    </section>
+
+
 
 </body>
 
